@@ -110,9 +110,31 @@
                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
             </svg>
         );
+        
+const ingredientMap = {
+  'mixed greens': ['lettuce', 'spinach', 'arugula', 'kale'],
+  'pork': ['pork butt', 'ground pork', 'pork chops', 'bacon', 'ham'],
+  'beef': ['ground beef', 'beef chuck', 'steak', 'beef roast'],
+  'chicken': ['chicken breast', 'chicken thighs', 'whole chicken'],
+  'onion': ['yellow onion', 'white onion', 'red onion', 'shallots'],
+  'garlic': ['garlic cloves', 'garlic powder', 'minced garlic'],
+};
 
+function hasIngredient(recipeIngredient, availableIngredients) {
+  // Direct match
+  if (availableIngredients.includes(recipeIngredient)) {
+    return true;
+  }
+  
+  // Check if this ingredient has aliases
+  const aliases = ingredientMap[recipeIngredient];
+  if (aliases) {
+    return aliases.some(alias => availableIngredients.includes(alias));
+  }
+  
+  return false;
+}
         const RecipeIngredientFinder = () => {
-            // Base ingredients list from your original preferences
             const baseIngredients = [
                 'cauliflower', 'blueberries', 'grapes', 'eggs', 'garlic', 'olive oil', 'cabbage',
                 'chicken', 'bell peppers', 'onions', 'arugula', 'macadamia nuts', 'radish',
