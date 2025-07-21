@@ -2,9 +2,6 @@
 const RECIPE_DATABASE = [
   // Recipe Database - Add new recipes here!
 // Each recipe should have: name, category, time, serves, cuisine, ingredients, fullIngredients, instructions
-
-  
-    // BREAKFAST RECIPES
     {
         name: "Berry Overnight Oats",
         category: "breakfast",
@@ -354,8 +351,6 @@ const RECIPE_DATABASE = [
             "Season with salt and pepper."
         ]
     },
-
-    // LUNCH RECIPES
     {
         name: "Greek Steak Salad",
         category: "lunch",
@@ -910,8 +905,6 @@ const RECIPE_DATABASE = [
             "Toss gently and serve."
         ]
     },
-
-    // DINNER RECIPES
     {
         name: "Ribeye Steak - Greek Style",
         category: "dinner",
@@ -1583,8 +1576,6 @@ const RECIPE_DATABASE = [
       "Serve over arugula with cherry tomatoes"
     ]
   },
-
-  // LUNCH RECIPES (15)
   {
     name: "Chickpea Arugula Salad",
     ingredients: ["chickpeas", "arugula", "cherry tomatoes", "olive oil", "lemons"],
@@ -1979,7 +1970,6 @@ const RECIPE_DATABASE = [
   }
 ];
 
-// Export for use in main app
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = RECIPE_DATABASE;
 }
