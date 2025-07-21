@@ -362,7 +362,7 @@ const RECIPE_DATABASE = [
         time: "15 min",
         serves: 1,
         cuisine: "Greek",
-        ingredients: ['sirloin steak', 'arugula', 'cucumbers', 'cherry tomatoes', 'olive oil', 'lemons'],
+        ingredients: ['top sirloin steak', 'arugula', 'cucumbers', 'cherry tomatoes', 'olive oil', 'lemons'],
         fullIngredients: [
             "4 oz sirloin steak",
             "2 cups arugula",
@@ -1456,7 +1456,527 @@ const RECIPE_DATABASE = [
             "In the last 30 minutes, add vegetables tossed with oil.",
             "Let rest for 10 minutes before serving."
         ]
-    }
+    },
+  {
+    name: "Blueberry Banana Oat Bowl",
+    ingredients: ["oats", "blueberries", "banana", "honey", "walnuts"],
+    time: "5 min",
+    serves: 1,
+    category: "breakfast",
+    cuisine: "American",
+    instructions: [
+      "Cook oats according to package directions",
+      "Slice banana and mix with blueberries",
+      "Top oats with fruit, walnuts, and drizzle with honey"
+    ]
+  },
+  {
+    name: "Avocado Scrambled Eggs",
+    ingredients: ["eggs", "avocados", "butter", "spinach", "cherry tomatoes"],
+    time: "8 min",
+    serves: 2,
+    category: "breakfast",
+    cuisine: "American",
+    instructions: [
+      "Scramble eggs in butter over medium heat",
+      "Add spinach in last minute of cooking",
+      "Serve with sliced avocado and cherry tomatoes"
+    ]
+  },
+  {
+    name: "Greek Yogurt Berry Parfait",
+    ingredients: ["greek yogurt", "strawberries", "blueberries", "honey", "almonds"],
+    time: "3 min",
+    serves: 1,
+    category: "breakfast",
+    cuisine: "Mediterranean",
+    instructions: [
+      "Layer greek yogurt with berries in a bowl",
+      "Top with almonds and drizzle with honey"
+    ]
+  },
+  {
+    name: "Sweet Potato Hash",
+    ingredients: ["sweet potatoes", "bell peppers", "onions", "eggs", "olive oil"],
+    time: "20 min",
+    serves: 4,
+    category: "breakfast",
+    cuisine: "American",
+    instructions: [
+      "Dice sweet potatoes and cook in olive oil until tender",
+      "Add peppers and onions, cook until soft",
+      "Create wells and crack eggs into them, cook until set"
+    ]
+  },
+  {
+    name: "Chia Seed Pudding",
+    ingredients: ["chia seeds", "coconut water", "banana", "raspberries", "honey"],
+    time: "5 min prep",
+    serves: 2,
+    category: "breakfast",
+    cuisine: "Modern",
+    instructions: [
+      "Mix chia seeds with coconut water, let sit overnight",
+      "Top with sliced banana, raspberries, and honey"
+    ]
+  },
+  {
+    name: "Spinach Mushroom Omelet",
+    ingredients: ["eggs", "spinach", "mushrooms", "butter", "garlic"],
+    time: "10 min",
+    serves: 2,
+    category: "breakfast",
+    cuisine: "French",
+    instructions: [
+      "Sauté mushrooms and garlic in butter",
+      "Beat eggs and pour into pan, add spinach",
+      "Fold omelet in half when eggs are set"
+    ]
+  },
+  {
+    name: "Peanut Butter Banana Toast",
+    ingredients: ["homemade sourdough", "peanut butter", "banana", "honey", "flaxseed"],
+    time: "5 min",
+    serves: 1,
+    category: "breakfast",
+    cuisine: "American",
+    instructions: [
+      "Toast sourdough bread",
+      "Spread peanut butter, add sliced banana",
+      "Sprinkle with flaxseed and drizzle honey"
+    ]
+  },
+  {
+    name: "Breakfast Rice Bowl",
+    ingredients: ["rice", "eggs", "green onions", "sesame oil", "carrots"],
+    time: "15 min",
+    serves: 2,
+    category: "breakfast",
+    cuisine: "Asian",
+    instructions: [
+      "Cook rice and let cool slightly",
+      "Scramble eggs with sesame oil",
+      "Mix together with diced carrots and green onions"
+    ]
+  },
+  {
+    name: "Coconut Berry Smoothie Bowl",
+    ingredients: ["coconut shreds", "strawberries", "banana", "greek yogurt", "almonds"],
+    time: "5 min",
+    serves: 1,
+    category: "breakfast",
+    cuisine: "Tropical",
+    instructions: [
+      "Blend frozen strawberries and banana with yogurt",
+      "Pour into bowl and top with coconut shreds and almonds"
+    ]
+  },
+  {
+    name: "Herb Scrambled Eggs",
+    ingredients: ["eggs", "herbs", "butter", "cherry tomatoes", "arugula"],
+    time: "8 min",
+    serves: 2,
+    category: "breakfast",
+    cuisine: "Mediterranean",
+    instructions: [
+      "Scramble eggs with herbs in butter",
+      "Serve over arugula with cherry tomatoes"
+    ]
+  },
+
+  // LUNCH RECIPES (15)
+  {
+    name: "Chickpea Arugula Salad",
+    ingredients: ["chickpeas", "arugula", "cherry tomatoes", "olive oil", "lemons"],
+    time: "10 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Mediterranean",
+    instructions: [
+      "Drain and rinse chickpeas",
+      "Toss with arugula and cherry tomatoes",
+      "Dress with olive oil and lemon juice"
+    ]
+  },
+  {
+    name: "Asian Cucumber Salad",
+    ingredients: ["cucumbers", "sesame oil", "ginger", "green onions", "rice"],
+    time: "15 min",
+    serves: 3,
+    category: "lunch",
+    cuisine: "Asian",
+    instructions: [
+      "Slice cucumbers thinly",
+      "Mix with minced ginger and green onions",
+      "Dress with sesame oil and serve over rice"
+    ]
+  },
+  {
+    name: "Lentil Vegetable Soup",
+    ingredients: ["lentils", "carrots", "celery", "onions", "vegetable broth"],
+    time: "30 min",
+    serves: 4,
+    category: "lunch",
+    cuisine: "Mediterranean",
+    instructions: [
+      "Sauté diced onions, carrots, and celery",
+      "Add lentils and vegetable broth",
+      "Simmer until lentils are tender"
+    ]
+  },
+  {
+    name: "Shrimp Avocado Bowl",
+    ingredients: ["shrimp", "avocados", "lettuce", "cherry tomatoes", "lime"],
+    time: "12 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Mexican",
+    instructions: [
+      "Cook shrimp until pink",
+      "Arrange over lettuce with diced avocado",
+      "Add cherry tomatoes and squeeze lime over all"
+    ]
+  },
+  {
+    name: "Quinoa-less Power Bowl",
+    ingredients: ["chickpea pasta", "broccoli", "carrots", "olive oil", "garlic"],
+    time: "15 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Modern",
+    instructions: [
+      "Cook chickpea pasta according to package",
+      "Steam broccoli and carrots until tender",
+      "Toss with olive oil and minced garlic"
+    ]
+  },
+  {
+    name: "Black Bean Corn Salad",
+    ingredients: ["black beans", "corn", "bell peppers", "cilantro", "lime"],
+    time: "10 min",
+    serves: 4,
+    category: "lunch",
+    cuisine: "Mexican",
+    instructions: [
+      "Combine drained black beans with corn",
+      "Add diced bell peppers and chopped cilantro",
+      "Dress with lime juice and salt"
+    ]
+  },
+  {
+    name: "Salmon Spinach Salad",
+    ingredients: ["salmon", "spinach", "cucumbers", "olive oil", "lemons"],
+    time: "15 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Mediterranean",
+    instructions: [
+      "Pan-sear salmon until cooked through",
+      "Serve over spinach with sliced cucumbers",
+      "Dress with olive oil and lemon"
+    ]
+  },
+  {
+    name: "Brussels Sprouts Slaw",
+    ingredients: ["brussels sprouts", "carrots", "almonds", "olive oil", "honey"],
+    time: "10 min",
+    serves: 4,
+    category: "lunch",
+    cuisine: "American",
+    instructions: [
+      "Shred brussels sprouts and carrots",
+      "Toss with sliced almonds",
+      "Dress with olive oil and honey"
+    ]
+  },
+  {
+    name: "Mushroom Barley Soup",
+    ingredients: ["mushrooms", "celery", "carrots", "vegetable broth", "herbs"],
+    time: "25 min",
+    serves: 4,
+    category: "lunch",
+    cuisine: "European",
+    instructions: [
+      "Sauté mushrooms until golden",
+      "Add diced celery, carrots, and broth",
+      "Simmer with herbs until vegetables are tender"
+    ]
+  },
+  {
+    name: "Zucchini Noodle Bowl",
+    ingredients: ["zucchini", "cherry tomatoes", "garlic", "olive oil", "herbs"],
+    time: "12 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Italian",
+    instructions: [
+      "Spiralize zucchini into noodles",
+      "Sauté garlic in olive oil",
+      "Toss with zucchini noodles, tomatoes, and herbs"
+    ]
+  },
+  {
+    name: "Cabbage Carrot Slaw",
+    ingredients: ["cabbage", "carrots", "green onions", "sesame oil", "ginger"],
+    time: "8 min",
+    serves: 4,
+    category: "lunch",
+    cuisine: "Asian",
+    instructions: [
+      "Shred cabbage and carrots",
+      "Mix with chopped green onions",
+      "Dress with sesame oil and minced ginger"
+    ]
+  },
+  {
+    name: "Sweet Potato Black Bean Bowl",
+    ingredients: ["sweet potatoes", "black beans", "bell peppers", "cilantro", "cumin"],
+    time: "25 min",
+    serves: 3,
+    category: "lunch",
+    cuisine: "Mexican",
+    instructions: [
+      "Roast diced sweet potatoes with cumin",
+      "Heat black beans and diced bell peppers",
+      "Combine and garnish with cilantro"
+    ]
+  },
+  {
+    name: "Artichoke Spinach Salad",
+    ingredients: ["artichoke", "spinach", "cherry tomatoes", "olive oil", "lemons"],
+    time: "8 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Mediterranean",
+    instructions: [
+      "Chop artichoke hearts",
+      "Toss with spinach and cherry tomatoes",
+      "Dress with olive oil and lemon juice"
+    ]
+  },
+  {
+    name: "Pear Walnut Salad",
+    ingredients: ["pears", "arugula", "walnuts", "olive oil", "honey"],
+    time: "7 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Modern",
+    instructions: [
+      "Slice pears and arrange over arugula",
+      "Top with chopped walnuts",
+      "Drizzle with olive oil and honey"
+    ]
+  },
+  {
+    name: "Edamame Rice Bowl",
+    ingredients: ["edamame", "rice", "carrots", "sesame oil", "green onions"],
+    time: "18 min",
+    serves: 2,
+    category: "lunch",
+    cuisine: "Asian",
+    instructions: [
+      "Cook rice and steam edamame",
+      "Sauté diced carrots until tender",
+      "Combine with sesame oil and green onions"
+    ]
+  },
+
+  // DINNER RECIPES (15)
+  {
+    name: "Herb Crusted Salmon",
+    ingredients: ["salmon", "herbs", "garlic", "olive oil", "lemons"],
+    time: "20 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Mediterranean",
+    instructions: [
+      "Mix chopped herbs with minced garlic and olive oil",
+      "Coat salmon fillets with herb mixture",
+      "Bake at 400°F for 12-15 minutes, serve with lemon"
+    ]
+  },
+  {
+    name: "Ground Beef Vegetable Stir Fry",
+    ingredients: ["ground beef", "broccoli", "bell peppers", "garlic", "sesame oil"],
+    time: "15 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Asian",
+    instructions: [
+      "Brown ground beef in a large pan",
+      "Add garlic, broccoli, and bell peppers",
+      "Stir fry until vegetables are tender, finish with sesame oil"
+    ]
+  },
+  {
+    name: "Pork Butt with Sweet Potatoes",
+    ingredients: ["pork butt", "sweet potatoes", "onions", "carrots", "beef broth"],
+    time: "3 hours",
+    serves: 6,
+    category: "dinner",
+    cuisine: "American",
+    instructions: [
+      "Season pork butt and sear all sides",
+      "Add vegetables and beef broth to pot",
+      "Slow cook at 325°F for 2.5-3 hours until tender"
+    ]
+  },
+  {
+    name: "Chicken Vegetable Curry",
+    ingredients: ["chicken", "cauliflower", "bell peppers", "coconut water", "cumin"],
+    time: "25 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Indian",
+    instructions: [
+      "Cook chicken pieces until golden",
+      "Add cumin and vegetables",
+      "Simmer in coconut water until chicken is cooked through"
+    ]
+  },
+  {
+    name: "Ribeye with Mushrooms",
+    ingredients: ["ribeye steaks", "mushrooms", "garlic", "butter", "herbs"],
+    time: "15 min",
+    serves: 2,
+    category: "dinner",
+    cuisine: "American",
+    instructions: [
+      "Season ribeye steaks and sear in hot pan",
+      "Sauté mushrooms and garlic in butter",
+      "Top steaks with mushroom mixture and fresh herbs"
+    ]
+  },
+  {
+    name: "Shrimp Zucchini Pasta",
+    ingredients: ["shrimp", "zucchini", "garlic", "olive oil", "cherry tomatoes"],
+    time: "12 min",
+    serves: 3,
+    category: "dinner",
+    cuisine: "Italian",
+    instructions: [
+      "Spiralize zucchini into noodles",
+      "Cook shrimp with garlic in olive oil",
+      "Toss with zucchini noodles and cherry tomatoes"
+    ]
+  },
+  {
+    name: "Ground Pork Lettuce Wraps",
+    ingredients: ["ground pork", "lettuce", "ginger", "green onions", "sesame oil"],
+    time: "15 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Asian",
+    instructions: [
+      "Cook ground pork with minced ginger",
+      "Add green onions and sesame oil",
+      "Serve in lettuce cups"
+    ]
+  },
+  {
+    name: "Chuck Roast Pot Roast",
+    ingredients: ["chuck roast", "carrots", "celery", "onions", "beef broth"],
+    time: "4 hours",
+    serves: 8,
+    category: "dinner",
+    cuisine: "American",
+    instructions: [
+      "Sear chuck roast on all sides",
+      "Add vegetables and beef broth",
+      "Slow cook at 300°F for 3-4 hours until fork tender"
+    ]
+  },
+  {
+    name: "Chicken Broccoli Rice",
+    ingredients: ["chicken", "broccoli", "rice", "garlic", "chicken broth"],
+    time: "25 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "American",
+    instructions: [
+      "Cook rice in chicken broth",
+      "Pan-fry chicken with garlic until cooked",
+      "Steam broccoli and combine all ingredients"
+    ]
+  },
+  {
+    name: "Baby Back Ribs",
+    ingredients: ["baby back ribs", "paprika", "cumin", "garlic", "onions"],
+    time: "2.5 hours",
+    serves: 4,
+    category: "dinner",
+    cuisine: "BBQ",
+    instructions: [
+      "Rub ribs with paprika, cumin, and garlic",
+      "Slow roast at 275°F for 2 hours",
+      "Add sliced onions for last 30 minutes"
+    ]
+  },
+  {
+    name: "Flat Iron Steak Fajitas",
+    ingredients: ["flat iron steaks", "bell peppers", "onions", "cilantro", "lime"],
+    time: "18 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Mexican",
+    instructions: [
+      "Slice steak into strips and season",
+      "Cook steak with peppers and onions",
+      "Garnish with cilantro and lime juice"
+    ]
+  },
+  {
+    name: "Ground Chicken Meatballs",
+    ingredients: ["ground chicken", "eggs", "garlic", "herbs", "diced tomatoes"],
+    time: "22 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Italian",
+    instructions: [
+      "Mix ground chicken with eggs, garlic, and herbs",
+      "Form into meatballs and brown in pan",
+      "Simmer in diced tomatoes until cooked through"
+    ]
+  },
+  {
+    name: "Salmon with Brussels Sprouts",
+    ingredients: ["salmon", "brussels sprouts", "olive oil", "garlic", "lemons"],
+    time: "20 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Modern",
+    instructions: [
+      "Halve brussels sprouts and roast with olive oil",
+      "Season salmon and bake alongside vegetables",
+      "Finish with garlic and lemon juice"
+    ]
+  },
+  {
+    name: "Chicken Naan Pizza",
+    ingredients: ["homemade naan", "chicken", "diced tomatoes", "bell peppers", "herbs"],
+    time: "15 min",
+    serves: 2,
+    category: "dinner",
+    cuisine: "Fusion",
+    instructions: [
+      "Top naan with diced tomatoes",
+      "Add cooked chicken and bell peppers",
+      "Bake until crispy, garnish with herbs"
+    ]
+  },
+  {
+    name: "Pineapple Chicken Bowl",
+    ingredients: ["chicken", "pineapple", "rice", "bell peppers", "ginger"],
+    time: "20 min",
+    serves: 4,
+    category: "dinner",
+    cuisine: "Hawaiian",
+    instructions: [
+      "Cook chicken with minced ginger",
+      "Add diced pineapple and bell peppers",
+      "Serve over rice"
+    ]
+  }
 ];
 
 // Export for use in main app
